@@ -7,5 +7,5 @@ WORKDIR /go
 EXPOSE 9900
 
 # Sleep forever
-ENTRYPOINT [ "sleep infinity" ]
+ENTRYPOINT [ "sh", "-c", "sleep infinity" ]
 
